@@ -148,6 +148,7 @@ public class ChatActivity extends BaseActivity {
         binding.inputMessage.setText(null);
     }
 
+
     private void showToast(String message){
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
     }
